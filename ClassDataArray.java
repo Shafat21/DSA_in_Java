@@ -1,7 +1,8 @@
-public class ClassDataArray {
+class ClassDataArray {
     private Person[] a;
     private int nElems;
 
+    //No eeror here just delete one ; or do (ClassDataArray(int max)) and again ClassDataArray(int max), This will fix this error
     public ClassDataArray(int max)
     {
         a = new Person[max];
